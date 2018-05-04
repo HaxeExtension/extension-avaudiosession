@@ -1,0 +1,13 @@
+{
+  "name": "extension-avaudiosession",
+  "url": "https://github.com/raggy/extension-avaudiosession",
+  "license": "MIT",
+  "tags": [ "extension", "ios" ],
+  "description": "Adds support for setting AVAudioSession category",
+  "version": "1.0.0",
+  "releasenote": "Initial release",
+  "contributors": ["Benjamin Davis"],
+  "dependencies": {
+
+  }
+}
