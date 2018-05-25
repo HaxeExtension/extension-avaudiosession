@@ -1,3 +1,5 @@
+package extension.avaudiosession;
+
 #if cpp
 import cpp.Lib;
 #elseif neko
