@@ -14,7 +14,11 @@ class AVAudioSession
 
 	static function get_backgroundAudio():Bool
 	{
+		#if ios
 		return avaudiosession_is_other_audio_playing();
+		#else
+		return false;
+		#end
 	}
 
 	static function get_category():AVAudioSessionCategory
